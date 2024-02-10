@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "y4tW81rVbAdZ1X7nogPcYUAtmP6K1rC/OyT6qRwix8qyPZQ46vG77ngHBlqtzKhGm/iGcwZn7j+fpkkuKVCH/Q==",
+  "success": true,
+  "projectFilePath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/helloworld__csharp_app/helloworld__csharp_app.csproj",
+  "expectedPackageFiles": [
+    "/home/azureuser/.nuget/packages/azure.ai.openai/1.0.0-beta.12/azure.ai.openai.1.0.0-beta.12.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/azure.core/1.36.0/azure.core.1.36.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/humanizer.core/2.11.10/humanizer.core.2.11.10.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/jetbrains.annotations/2021.2.0/jetbrains.annotations.2021.2.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/json.more.net/1.9.0/json.more.net.1.9.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/jsonpointer.net/3.0.3/jsonpointer.net.3.0.3.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/jsonschema.net/5.4.2/jsonschema.net.5.4.2.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/jsonschema.net.generation/3.5.1/jsonschema.net.generation.3.5.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.bcl.asyncinterfaces/8.0.0/microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.semantickernel/1.3.0/microsoft.semantickernel.1.3.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.semantickernel.abstractions/1.3.0/microsoft.semantickernel.abstractions.1.3.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.semantickernel.connectors.openai/1.3.0/microsoft.semantickernel.connectors.openai.1.3.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/microsoft.semantickernel.core/1.3.0/microsoft.semantickernel.core.1.3.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.diagnostics.diagnosticsource/8.0.0/system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.text.json/8.0.1/system.text.json.8.0.1.nupkg.sha512",
+    "/home/azureuser/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
