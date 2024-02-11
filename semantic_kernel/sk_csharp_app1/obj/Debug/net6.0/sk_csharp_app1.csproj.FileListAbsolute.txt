@@ -1,0 +1,11 @@
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/bin/Debug/net6.0/sk_csharp_app1
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/bin/Debug/net6.0/sk_csharp_app1.dll
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/bin/Debug/net6.0/sk_csharp_app1.pdb
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/sk_csharp_app1.csproj.AssemblyReference.cache
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/sk_csharp_app1.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/sk_csharp_app1.AssemblyInfoInputs.cache
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/sk_csharp_app1.AssemblyInfo.cs
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/sk_csharp_app1.csproj.CoreCompileInputs.cache
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/sk_csharp_app1.dll
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/refint/sk_csharp_app1.dll
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/Debug/net6.0/sk_csharp_app1.pdb

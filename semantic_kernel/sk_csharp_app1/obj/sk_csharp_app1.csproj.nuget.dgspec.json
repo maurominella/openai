@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/semantic_kernel.csproj": {}
+    "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/sk_csharp_app1.csproj": {}
   },
   "projects": {
-    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/semantic_kernel.csproj": {
+    "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/sk_csharp_app1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/semantic_kernel.csproj",
-        "projectName": "semantic_kernel",
-        "projectPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/semantic_kernel.csproj",
+        "projectUniqueName": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/sk_csharp_app1.csproj",
+        "projectName": "sk_csharp_app1",
+        "projectPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/sk_csharp_app1.csproj",
         "packagesPath": "/home/azureuser/.nuget/packages/",
-        "outputPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/obj/",
+        "outputPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/azureuser/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,10 @@
             "DotNetEnv": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.3.0, )"
             }
           },
           "imports": [
