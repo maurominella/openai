@@ -10,7 +10,7 @@ using System.Text.Json;
 using System.ComponentModel;
 
 
-// inspired by 
+// inspired by:
 // - https://github.com/microsoft/semantic-kernel/blob/main/dotnet/samples/KernelSyntaxExamples/Example09_FunctionTypes.cs
 // - https://www.developerscantina.com/p/semantic-kernel-memory/
 // - https://github.com/microsoft/semantic-kernel/blob/main/dotnet/samples/KernelSyntaxExamples/Example10_DescribeAllPluginsAndFunctions.cs
@@ -112,7 +112,7 @@ public class Example59_OpenAIFunctionCalling
                 },  "Get_Weather_For_City", "Gets the current weather for the specified city"),
         });
 
-        var question = "How old is my cat Molly? When she was born?";
+        var question = "How old is my cat Molly? When was she born?";
 
         // question = "Given the current time of day and weather, what is the likely color of the sky in Boston?";
 
