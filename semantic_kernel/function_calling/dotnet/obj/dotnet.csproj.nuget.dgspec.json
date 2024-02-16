@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/08-calling_native_and_semantic_functions/dotnet/dotnet.csproj": {}
+    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {}
   },
   "projects": {
-    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/08-calling_native_and_semantic_functions/dotnet/dotnet.csproj": {
+    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/08-calling_native_and_semantic_functions/dotnet/dotnet.csproj",
+        "projectUniqueName": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/08-calling_native_and_semantic_functions/dotnet/dotnet.csproj",
+        "projectPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
         "packagesPath": "/home/azureuser/.nuget/packages/",
-        "outputPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/08-calling_native_and_semantic_functions/dotnet/obj/",
+        "outputPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/azureuser/.nuget/NuGet/NuGet.Config"

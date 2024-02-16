@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dotnet
-build_property.ProjectDir = /mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/08-calling_native_and_semantic_functions/dotnet/
+build_property.ProjectDir = /mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/
