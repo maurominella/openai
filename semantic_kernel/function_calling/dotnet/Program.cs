@@ -52,14 +52,14 @@ public class RandomNumberClass
     public static int generate_number_three_or_higher([Description("The upper bound number")] int upper_bound)
     {  
         Random random = new Random();  
-        return random.Next(upper_bound + 1, 3);  
+        return random.Next(3, upper_bound + 1);  
     }
 
     [KernelFunction, Description("Generates a random number between lower_bound and 3")]
     public static int generate_number_three_or_lower([Description("The lower bound number")] int lower_bound) 
     {   
         Random random = new Random();  
-        return random.Next(lower_bound + 1, 3);  
+        return random.Next(lower_bound, 3);  
     }
 }
 

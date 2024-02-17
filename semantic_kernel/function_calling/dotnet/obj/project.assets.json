@@ -5883,19 +5883,19 @@
     ]
   },
   "packageFolders": {
-    "/home/azureuser/.nuget/packages/": {}
+    "/home/mauromi/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
+      "projectUniqueName": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
-      "packagesPath": "/home/azureuser/.nuget/packages/",
-      "outputPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/",
+      "projectPath": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
+      "packagesPath": "/home/mauromi/.nuget/packages/",
+      "outputPath": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/azureuser/.nuget/NuGet/NuGet.Config"
+        "/home/mauromi/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5913,6 +5913,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5943,12 +5948,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[7.0.16, 7.0.16]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.16, 7.0.16]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.200/RuntimeIdentifierGraph.json"
       }
     }
   }
