@@ -1,7 +1,0 @@
-TESTO
-
-
-{{$input}}
-
-
-{{$question}} {{$style}}
