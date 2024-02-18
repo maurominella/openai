@@ -13,9 +13,9 @@
     <SourceRoot Include="/home/mauromi/.nuget/packages/" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)xunit.core/2.6.6/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.6.6/build/xunit.core.props')" />
+    <Import Project="$(NuGetPackageRoot)xunit.core/2.7.0/build/xunit.core.props" Condition="Exists('$(NuGetPackageRoot)xunit.core/2.7.0/build/xunit.core.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/home/mauromi/.nuget/packages/xunit.analyzers/1.10.0</Pkgxunit_analyzers>
+    <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/home/mauromi/.nuget/packages/xunit.analyzers/1.11.0</Pkgxunit_analyzers>
   </PropertyGroup>
 </Project>
