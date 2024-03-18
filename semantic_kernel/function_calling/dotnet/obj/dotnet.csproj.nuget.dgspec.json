@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {}
+    "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {}
   },
   "projects": {
-    "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {
+    "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
+        "projectUniqueName": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
-        "packagesPath": "/home/mauromi/.nuget/packages/",
-        "outputPath": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/",
+        "projectPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
+        "packagesPath": "/home/azureuser/.nuget/packages/",
+        "outputPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/mauromi/.nuget/NuGet/NuGet.Config"
+          "/home/azureuser/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -49,7 +44,7 @@
             },
             "Microsoft.SemanticKernel": {
               "target": "Package",
-              "version": "[1.3.0, )"
+              "version": "[1.6.1, )"
             },
             "xunit": {
               "target": "Package",
@@ -72,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.407/RuntimeIdentifierGraph.json"
         }
       }
     }

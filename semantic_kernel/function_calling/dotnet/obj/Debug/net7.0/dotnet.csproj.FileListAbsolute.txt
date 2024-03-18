@@ -140,3 +140,14 @@
 /home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.pdb
 /home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.genruntimeconfig.cache
 /home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/ref/dotnet.dll
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/bin/Debug/net7.0/dotnet
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/bin/Debug/net7.0/dotnet.dll
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/bin/Debug/net7.0/dotnet.pdb
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.csproj.AssemblyReference.cache
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.AssemblyInfoInputs.cache
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.AssemblyInfo.cs
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.csproj.CoreCompileInputs.cache
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.dll
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/refint/dotnet.dll
+/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-generalpurpose01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/Debug/net7.0/dotnet.pdb

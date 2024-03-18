@@ -9,7 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="DotNetEnv" Version="3.0.0" />
-    <PackageReference Include="Microsoft.SemanticKernel" Version="1.3.0" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.6.1" />
     <PackageReference Include="xunit" Version="2.7.0" />
   </ItemGroup>
 
