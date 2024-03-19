@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QpoHZsJ5ipZDhzcd1OS3aHVHpzSnZ1gXQmiK0gvzFdyL+TTwNjas6Mfrv2F5Q4T6l5mXVRPBZtwSSKpw8TPfTg==",
+  "dgSpecHash": "1dq2w7aRoIrOXr6cZqYfsSCqzX3vR6++3Zazi05ekU7xJ+0FQNY7xkFpJqah/qLOZeehkj6I7b1nLhGGNM8rtg==",
   "success": true,
-  "projectFilePath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj",
+  "projectFilePath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj",
   "expectedPackageFiles": [
     "/home/azureuser/.nuget/packages/azure.ai.openai/1.0.0-beta.12/azure.ai.openai.1.0.0-beta.12.nupkg.sha512",
     "/home/azureuser/.nuget/packages/azure.core/1.36.0/azure.core.1.36.0.nupkg.sha512",
