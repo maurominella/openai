@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj": {}
+    "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj": {}
   },
   "projects": {
-    "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj": {
+    "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj",
+        "projectUniqueName": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj",
         "projectName": "sk_csharp_app01",
-        "projectPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj",
+        "projectPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/sk_csharp_app01.csproj",
         "packagesPath": "/home/azureuser/.nuget/packages/",
-        "outputPath": "/mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/obj/",
+        "outputPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/azureuser/.nuget/NuGet/NuGet.Config"
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.405/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.407/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = sk_csharp_app01
-build_property.ProjectDir = /mnt/batch/tasks/shared/LS_root/mounts/clusters/dsvm-general-optimized01/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/
+build_property.ProjectDir = /home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/sk_csharp_app01/
