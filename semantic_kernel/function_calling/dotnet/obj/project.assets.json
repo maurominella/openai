@@ -5886,24 +5886,26 @@
     ]
   },
   "packageFolders": {
-    "/home/azureuser/.nuget/packages/": {}
+    "C:\\Users\\mauromi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
+      "projectUniqueName": "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel\\function_calling\\dotnet\\dotnet.csproj",
       "projectName": "dotnet",
-      "projectPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
-      "packagesPath": "/home/azureuser/.nuget/packages/",
-      "outputPath": "/home/azureuser/cloudfiles/code/Users/mauro.minella/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/",
+      "projectPath": "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel\\function_calling\\dotnet\\dotnet.csproj",
+      "packagesPath": "C:\\Users\\mauromi\\.nuget\\packages\\",
+      "outputPath": "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel\\function_calling\\dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/azureuser/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mauromi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5916,6 +5918,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5951,7 +5958,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.407/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
