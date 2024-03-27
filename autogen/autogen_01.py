@@ -1,4 +1,22 @@
-import autogen, json, os
+#!/usr/bin/env python
+# coding: utf-8
+# %%
+
+# %%
+
+
+from typing import Dict, Union
+
+from IPython import get_ipython
+from IPython.display import display, Image
+import csv
+
+
+# %%
+
+
+import autogen, os
+import json
 from dotenv import load_dotenv
 
 load_dotenv("./../credentials_my.env")
@@ -12,7 +30,7 @@ my_models = [
         "api_version": os.environ['AZURE_OPENAI_API_VERSION']
     },
     {
-        'model': os.environ['GPT4-1106-128k'],
+        'model': os.environ['GPT432-0613-32k'],
         'api_key': os.environ['AZURE_OPENAI_API_KEY'],
         "base_url": os.environ['AZURE_OPENAI_ENDPOINT'],
         "api_type": os.environ['OPENAI_API_TYPE'],
@@ -36,6 +54,10 @@ config_list = autogen.config_list_from_json(
 
 config_list
 
+
+# %%
+
+
 # create a UserProxyAgent instance named "user_proxy"
 
 user_proxy = autogen.UserProxyAgent(
@@ -58,12 +80,16 @@ user_proxy = autogen.UserProxyAgent(
 
 user_proxy
 
+
+# %%
+
+
 # create an AssistantAgent named "assistant"
 
 assistant = autogen.AssistantAgent(
     name="assistant",
     llm_config={
-        "cache_seed": 45,  # seed for caching and reproducibility
+        "cache_seed": 53,  # seed for caching and reproducibility
         "config_list": config_list,  # a list of OpenAI API configurations
         "temperature": 0,  # temperature for sampling
     },  # configuration for autogen's enhanced inference API which is compatible with OpenAI API
@@ -72,10 +98,14 @@ assistant = autogen.AssistantAgent(
 assistant
 
 
-# the assistant receives a message from the user_proxy, which contains the task description
+# %%
 
-chat_res = user_proxy.initiate_chat(
-    assistant,
-    message="""What date is today? Compare the year-to-date gain for META and TESLA.""",
-    summary_method="reflection_with_llm",
-)
+
+get_ipython().run_cell_magic('time', '', '# the assistant receives a message from the user_proxy, which contains the task description\n\n\nchat_res = user_proxy.initiate_chat(\n    assistant,\n    message="""What date is today? Compare the year-to-date gain for META and TESLA.""",\n    summary_method="reflection_with_llm",\n)\n')
+
+
+# %%
+
+
+autogen.Completion.clear_cache(seed=53)
+
