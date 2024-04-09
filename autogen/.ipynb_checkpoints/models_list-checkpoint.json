@@ -1,4 +1,4 @@
-[
+[    
   {
     "model": "gpt4-0125preview-128k",
     "api_key": "5948e5b2b4a146cba9940adb3308d731",
@@ -22,7 +22,7 @@
   },
   {
     "model": "gpt-4",
-    "api_key": "sk-*********************************ZXY"
+    "api_key": "sk-XoMik5CKuntOhvEJH5QgT3BlbkFjeoQoffxGuvWBf3G3EFKn"
   },
   {
     "model": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF/mistral-7b-instruct-v0.1.Q5_0.gguf",
