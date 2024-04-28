@@ -236,3 +236,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Secrets
+taskweaver_config.json
