@@ -1,8 +1,0 @@
-{
-  "llm.api_base": "https://mmopenaiscus.openai.azure.com/",
-  "llm.api_key": "3365c19fc5374b469e926fcd40777eee",
-  "llm.api_type": "azure",
-  "llm.api_version": "2024-02-15-preview",
-  "llm.model": "gpt4-0125preview-128k",
-  "execution_service.kernel_mode": "local"
-}
