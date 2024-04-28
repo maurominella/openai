@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "program starts"
 # Get the directory containing the script file
 scriptDirectory="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 echo "The script directory is: $scriptDirectory"
