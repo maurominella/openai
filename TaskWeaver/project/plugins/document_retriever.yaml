@@ -1,5 +1,5 @@
 name: document_retriever
-enabled: false
+enabled: true
 required: false
 plugin_only: true
 description: >-
