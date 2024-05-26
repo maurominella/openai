@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f2agqKOLtifoxNEd2H7JoBMd9VGWZESxDcIvy9zaba6MYvnm84UrmBGU4LNOxXhrESUyc42EYqAUEmLYRmyuGw==",
+  "dgSpecHash": "c0nJITU3PXKQMdBYcSraJsV6D+HlOrmLabkCwHibCMhuToMOrasH7u8sN3qZJSW5OT5xdvdenz4Vt1Oo9nxppw==",
   "success": true,
   "projectFilePath": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
   "expectedPackageFiles": [

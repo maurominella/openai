@@ -1,6 +1,7 @@
 name: image2text
-enabled: false
+enabled: true
 required: false
+plugin_only: true
 description: >-
   image2text can load an image and convert it into text by using OCR. 
 
