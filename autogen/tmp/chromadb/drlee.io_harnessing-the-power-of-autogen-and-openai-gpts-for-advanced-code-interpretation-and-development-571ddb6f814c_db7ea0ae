@@ -1,0 +1,126 @@
+# Harnessing the Power of AutoGen and OpenAI GPTs for Advanced Code Interpretation and Development | by Dr. Ernesto Lee | Medium
+
+Harnessing the Power of AutoGen and OpenAI GPTs for Advanced Code Interpretation and Development | by Dr. Ernesto Lee | Medium[Open in app](https://rsci.app.link/?%24canonical_url=https%3A%2F%2Fmedium.com%2Fp%2F571ddb6f814c&%7Efeature=LoOpenInAppButton&%7Echannel=ShowPostUnderUser&source=---two_column_layout_nav----------------------------------)[Sign up](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdrlee.io%2Fharnessing-the-power-of-autogen-and-openai-gpts-for-advanced-code-interpretation-and-development-571ddb6f814c&source=post_page---two_column_layout_nav-----------------------global_nav-----------)
+
+[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fdrlee.io%2Fharnessing-the-power-of-autogen-and-openai-gpts-for-advanced-code-interpretation-and-development-571ddb6f814c&source=post_page---two_column_layout_nav-----------------------global_nav-----------)
+
+[Write](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fmedium.com%2Fnew-story&source=---two_column_layout_nav-----------------------new_post_topnav-----------)[Sign up](https://medium.com/m/signin?operation=register&redirect=https%3A%2F%2Fdrlee.io%2Fharnessing-the-power-of-autogen-and-openai-gpts-for-advanced-code-interpretation-and-development-571ddb6f814c&source=post_page---two_column_layout_nav-----------------------global_nav-----------)
+
+[Sign in](https://medium.com/m/signin?operation=login&redirect=https%3A%2F%2Fdrlee.io%2Fharnessing-the-power-of-autogen-and-openai-gpts-for-advanced-code-interpretation-and-development-571ddb6f814c&source=post_page---two_column_layout_nav-----------------------global_nav-----------)
+
+![](https://miro.medium.com/v2/resize:fill:64:64/1*dmbNkD5D-u45r44go_cf0g.png)Harnessing the Power of AutoGen and OpenAI GPTs for Advanced Code Interpretation and Development
+================================================================================================
+
+[![Dr. Ernesto Lee](https://miro.medium.com/v2/resize:fill:88:88/1*nzdYUSs4c2RQs2W0FCHv1g.jpeg)](/?source=post_page-----571ddb6f814c--------------------------------)[Dr. Ernesto Lee](/?source=post_page-----571ddb6f814c--------------------------------)
+
+·[Follow](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fsubscribe%2Fuser%2F53ee0651b83e&operation=register&redirect=https%3A%2F%2Fdrlee.io%2Fharnessing-the-power-of-autogen-and-openai-gpts-for-advanced-code-interpretation-and-development-571ddb6f814c&user=Dr.+Ernesto+Lee&userId=53ee0651b83e&source=post_page-53ee0651b83e----571ddb6f814c---------------------post_header-----------)
+
+3 min read·Dec 19, 2023--
+
+Listen
+
+Share
+
+![]()Introduction
+============
+
+In the rapidly evolving world of AI and software development, the collaboration between AutoGen and OpenAI’s GPTs is a game-changer. This integration allows for the creation of advanced, multi-agent systems capable of tackling complex coding tasks with unprecedented efficiency and intelligence. In this article, we will delve into how you can utilize AutoGen in conjunction with GPTs for sophisticated code interpretation, debugging, and development.
+
+Step 1: Setting Up Your Environment
+===================================
+
+Before diving into the practical application, you need to set up your environment. This involves installing the necessary AutoGen package. Execute the following command in your terminal:
+
+```
+!pip install pyautogen==0.2.0b5
+```
+Step 2: Importing the Required Modules
+======================================
+
+Once the installation is complete, you need to import the necessary modules from AutoGen and configure them. Start by importing `config_list_from_json`, `GPTAssistantAgent`, and `UserProxyAgent`:
+
+```
+from autogen import config_list_from_json  
+from autogen.agentchat.contrib.gpt_assistant_agent import GPTAssistantAgent  
+from autogen import UserProxyAgent  
+  
+# config_list = config_list_from_json("OAI_CONFIG_LIST")  
+  
+config_list = [  
+    {  
+        'model': 'gpt-4',  
+        'api_key': '<put your openai key here>',  
+    },  
+]
+```
+Step 3: Creating the GPTAssistantAgent
+======================================
+
+The next step involves defining the OpenAI assistant agent. This agent will act as your primary interface with the GPT models:
+
+```
+gpt_assistant = GPTAssistantAgent(  
+    name="assistant",  
+    llm_config={  
+        "config_list": config_list,  
+        "assistant_id": None  
+    })
+```
+Step 4: Setting Up the UserProxyAgent
+=====================================
+
+The `UserProxyAgent` serves as an intermediary for code execution and human input management. Set it up as follows:
+
+```
+user_proxy = UserProxyAgent(  
+    name="user_proxy",  
+    code_execution_config={  
+        "work_dir": "coding"  
+    },  
+    human_input_mode="NEVER")
+```
+Step 5: Initiating the Task
+===========================
+
+With both agents configured, you can now initiate a task. For example, to print “Hello World”, you would do the following:
+
+```
+user_proxy.initiate_chat(gpt_assistant, message="Print hello world")
+```
+Step 6: Enabling Advanced Features
+==================================
+
+For more advanced coding tasks, such as code interpretation, you can enhance your GPTAssistantAgent with additional tools:
+
+```
+gpt_assistant = GPTAssistantAgent(  
+    name="assistant",  
+    llm_config={  
+        "config_list": config_list,  
+        "assistant_id": None,  
+        "tools": [{"type": "code_interpreter"}],  
+    })
+```
+then test it with this:
+
+```
+user_proxy.initiate_chat(gpt_assistant, message="Get the price of gold and print a visual of the last 4 days closing price")
+```
+![]()Conclusion
+==========
+
+The integration of AutoGen and OpenAI’s GPTs marks a significant advancement in AI-driven coding. This combination not only streamlines the coding process but also opens new avenues for tackling complex software development challenges. With these steps, you can start leveraging this powerful duo to enhance your coding projects, be it for debugging, writing new code snippets, or even learning new programming concepts.
+
+Future Perspectives
+===================
+
+While there are limitations, such as the pending integration of group chat managers and the anticipation of multimodal capabilities, the potential for growth and enhancement in this area is immense. The ongoing developments in AutoGen and GPT integration promise a future where coding and software development are more intuitive, efficient, and aligned with the evolving needs of developers.
+
+[Data Science](https://medium.com/tag/data-science?source=post_page-----571ddb6f814c---------------data_science-----------------)[Machine Learning](https://medium.com/tag/machine-learning?source=post_page-----571ddb6f814c---------------machine_learning-----------------)[Artificial Intelligence](https://medium.com/tag/artificial-intelligence?source=post_page-----571ddb6f814c---------------artificial_intelligence-----------------)[Technology](https://medium.com/tag/technology?source=post_page-----571ddb6f814c---------------technology-----------------)[ChatGPT](https://medium.com/tag/chatgpt?source=post_page-----571ddb6f814c---------------chatgpt-----------------)--
+
+--
+
+[![Dr. Ernesto Lee](https://miro.medium.com/v2/resize:fill:144:144/1*nzdYUSs4c2RQs2W0FCHv1g.jpeg)](/?source=post_page-----571ddb6f814c--------------------------------)[Follow](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fsubscribe%2Fuser%2F53ee0651b83e&operation=register&redirect=https%3A%2F%2Fdrlee.io%2Fharnessing-the-power-of-autogen-and-openai-gpts-for-advanced-code-interpretation-and-development-571ddb6f814c&user=Dr.+Ernesto+Lee&userId=53ee0651b83e&source=post_page-53ee0651b83e----571ddb6f814c---------------------follow_profile-----------)[Written by Dr. Ernesto Lee
+--------------------------](/?source=post_page-----571ddb6f814c--------------------------------)[1.8K Followers](/followers?source=post_page-----571ddb6f814c--------------------------------)Miami Dade College Data Analytics Faculty and Chief Innovation Officer [TriveraTech.com](http://TriveraTech.com)
+
+[Follow](https://medium.com/m/signin?actionUrl=https%3A%2F%2Fmedium.com%2F_%2Fsubscribe%2Fuser%2F53ee0651b83e&operation=register&redirect=https%3A%2F%2Fdrlee.io%2Fharnessing-the-power-of-autogen-and-openai-gpts-for-advanced-code-interpretation-and-development-571ddb6f814c&user=Dr.+Ernesto+Lee&userId=53ee0651b83e&source=post_page-53ee0651b83e----571ddb6f814c---------------------follow_profile-----------)[Help](https://help.medium.com/hc/en-us?source=post_page-----571ddb6f814c--------------------------------)[Status](https://medium.statuspage.io/?source=post_page-----571ddb6f814c--------------------------------)[About](https://medium.com/about?autoplay=1&source=post_page-----571ddb6f814c--------------------------------)[Careers](https://medium.com/jobs-at-medium/work-at-medium-959d1a85284e?source=post_page-----571ddb6f814c--------------------------------)[Press](mailto:pressinquiries@medium.com?source=post_page-----571ddb6f814c--------------------------------)[Blog](https://blog.medium.com/?source=post_page-----571ddb6f814c--------------------------------)[Privacy](https://policy.medium.com/medium-privacy-policy-f03bf92035c9?source=post_page-----571ddb6f814c--------------------------------)[Terms](https://policy.medium.com/medium-terms-of-service-9db0094a1e0f?source=post_page-----571ddb6f814c--------------------------------)[Text to speech](https://speechify.com/medium?source=post_page-----571ddb6f814c--------------------------------)[Teams](https://medium.com/business?source=post_page-----571ddb6f814c--------------------------------)
