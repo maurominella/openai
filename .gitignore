@@ -1,4 +1,4 @@
-credentials_my.env
-models_list.json
+config/credentials_my.env
+config/models_list.json
 taskweaver_config.json
 *.env
