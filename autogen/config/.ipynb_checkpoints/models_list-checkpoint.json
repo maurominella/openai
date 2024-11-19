@@ -1,0 +1,33 @@
+[
+  {
+    "model": "gpt-4o-2024-05-13",
+    "api_key": "73f07aee325f4c2dbc4b3edba631d738",
+    "base_url": "https://mmoaiswc-01.openai.azure.com/",
+    "api_type": "azure",
+    "api_version": "2024-10-01-preview"
+  },
+  {
+    "model": "gpt-4turbo-2024-04-09",
+    "api_key": "73f07aee325f4c2dbc4b3edba631d738",
+    "base_url": "https://mmoaiswc-01.openai.azure.com/",
+    "api_type": "azure",
+    "api_version": "2024-10-01-preview"
+  },
+  {
+    "model": "gpt-3.5-turbo",
+    "api_key": "73f07aee325f4c2dbc4b3edba631d738",
+    "base_url": "https://mmoaiswc-01.openai.azure.com/",
+    "api_type": "azure",
+    "api_version": "2024-10-01-preview"
+  },
+  {
+    "model": "gpt-4",
+    "api_key": "sk-XoMik5C***************QoffxGuvWBf3G3EFKn"
+  },
+  {
+    "model": "TheBloke/Mistral-7B-Instruct-v0.1-GGUF/mistral-7b-instruct-v0.1.Q5_0.gguf",
+    "api_type": "open_ai",
+    "api_base": "http://192.168.27.99:1234/v1",
+    "api_key": "whatever"
+  }
+]
