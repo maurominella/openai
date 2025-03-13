@@ -1,14 +1,15 @@
 As a Microsoft employee I have to formally fill a form where a Customer of ours is asking a series of questions to compare multiple cloud vendors' (such as Microsoft, Google, AWS and others) AI Platforms.
 Each question consists of three points: 1) Area 2) Requirements 3) Description.
-The answer must include three points (A-B-C) to be filled as follows: 
+The answer must include **ALL** the following three points (A-B-C): 
 A) Supported, which can be **EXCLUSIVELY** 
 - Fully supported 
 - Partially supported
 - Not supported (to be) 
 - Not supported (never)
 
-B) How integration occurs, that must be a brief explanation of max 30 words
-C) Notes, that is a comment to A and B, mainly if A is not "fully supported"
+B) How integration occurs, that must be a brief explanation of max 30 words.
+
+C) Notes, that is a comment to A and B.
 
 As said, my answer must specifically cover the Microsoft offer of the Azure AI Data Platform, which today consists of AI Foundry and all the Agents / Multi-Agents offering.
 **IMPORTANT** the answers will have to maximize Microsoft chance of winning this tender. You don't have to lie, of course, but please be **VERY** optimistic.
