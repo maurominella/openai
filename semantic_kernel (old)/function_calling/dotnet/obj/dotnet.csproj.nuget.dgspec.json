@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {}
+    "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel (old)\\function_calling\\dotnet\\dotnet.csproj": {}
   },
   "projects": {
-    "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj": {
+    "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel (old)\\function_calling\\dotnet\\dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
+        "projectUniqueName": "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel (old)\\function_calling\\dotnet\\dotnet.csproj",
         "projectName": "dotnet",
-        "projectPath": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/dotnet.csproj",
-        "packagesPath": "/home/mauromi/.nuget/packages/",
-        "outputPath": "/home/mauromi/git_repos/openai/semantic_kernel/function_calling/dotnet/obj/",
+        "projectPath": "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel (old)\\function_calling\\dotnet\\dotnet.csproj",
+        "packagesPath": "C:\\Users\\mauromi\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\mauromi\\source\\git_repos\\openai\\semantic_kernel (old)\\function_calling\\dotnet\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/mauromi/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mauromi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
@@ -72,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
