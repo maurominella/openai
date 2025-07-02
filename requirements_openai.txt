@@ -1,0 +1,4 @@
+azure-identity==1.23.0
+python-dotenv==1.1.1
+openai==1.93.0
+jupyter==1.1.1
