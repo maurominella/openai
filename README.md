@@ -1,3 +1,5 @@
+Hi there! 👋
+
 # Mauro Minella repository for storing samples about<br/>
 # `Azure Open AI`  technologies
 
