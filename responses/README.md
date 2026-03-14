@@ -16,7 +16,8 @@
   - Manually: `uv add --active <package-name> --prerelease=allow`
 - Check that the packges are installed: `uv pip list`
 - Synchronize to create the file structure: `uv sync --active --prerelease=allow`
-- To deactivate: `deactivate`
+- List jupyter kernels: `jupyter kernelspec list`
+- Delete a jupyter kernel: `jupyter kernelspec uninstall responses`
 - Create kernel for the jupyter notebook: ```python -m ipykernel install --name responses --use```
 - Test Python:
 ```
@@ -25,3 +26,4 @@ import agent_framework
 print("OK:", agent_framework)
 EOF
 ```
+- To deactivate: `deactivate`
